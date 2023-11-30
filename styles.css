@@ -1,1 +1,52 @@
-/* your code here */
+/* your code here */\
+.photo-main{
+	display:flex;
+	padding:10px;
+}
+
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+.photo-container{
+	width:350px;
+	height:360px;
+	background-color:green;
+	display:flex;
+	flex-direction:column;
+}
+.photo-album>ul{
+	display:flex;
+	list-style:none;
+	background-color:white;
+}
+.photo-album>ul>li{
+	border:1px solid green;
+	margin-inline:5px
+}
+.product{
+	display:flex;
+	gap:20px;
+}
+.price{
+	color:red;
+}
+.price>span{
+	font-size:50px;
+	color:red;
+}
+.variant>ul{
+	display:flex;
+	list-style:none;
+}
+.variant>ul>li:nth-child(1){
+	border:1px solid black;
+}
+.btn{
+	background-color:red;
+	width:200px;
+	height:40px;
+	border:none;
+	border-radius:10px;
+	color:white;
+}
